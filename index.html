@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -21,11 +22,11 @@
         <nav class="navbar">
             <ul>
                 <li><a href="#home" id="#home">Home</a></li>
-                <li><a href="#about">About Me</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#education">Education</a></li>
                 <li><a href="#languages">Languages</a></li>
-                <li><a href="#contact">Contact Me</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
 
@@ -42,13 +43,13 @@
 
     <section>
         <div class="row">
-            <div id="about" class="about">
+            <div data-aos="slide-up" data-aos-duration="2000" id="about" class="about">
                 <h1><strong>About Me</strong></h1>
                 <p><em>I want to work in an innovative and competitive organization where I can expand
                         my skills and learn different things from my seniors and fellow mates.</em>
                 </p>
             </div>
-            <div id="skills" class="skills">
+            <div data-aos="slide-up" data-aos-duration="2000" id="skills" class="skills">
                 <h2><strong>Skills</strong></h2>
                 <h6><strong>C</strong></h6>
                 <div class="w3-border">
@@ -74,7 +75,7 @@
 
     <section id="education">
         <div class="row">
-            <div class="education">
+            <div data-aos="slide-right" data-aos-duration="2000" class="education">
                 <h2><strong>Education</strong></h2>
                 <div class="education-school">
                     <h4><strong>Army Public School, Patna</strong></h4>
@@ -99,7 +100,7 @@
                         </em></p>
                 </div>
             </div>
-            <div id="languages" class="languages">
+            <div data-aos="slide-left" data-aos-duration="2000" id="languages" class="languages">
                 <h2><strong>Languages</strong></h2>
                 <ul>
                     <li>Hindi</li>
@@ -115,7 +116,7 @@
 
     <section id="contact">
         <div class="row">
-            <div class="contact">
+            <div data-aos="slide-up" data-aos-duration="2000" class="contact">
                 <h2><strong>Contact Me</strong></h2>
                 <div class="list-group">
                     <p> <a class="list-group-item" href="#"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp;
@@ -157,6 +158,12 @@
 
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 3000
+        });
+    </script>
 </body>
 
 </html>
