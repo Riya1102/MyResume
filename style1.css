@@ -470,6 +470,7 @@ footer .row {
             width: 65%;
             height: 65vh;
             margin-top: 10vh;
+            flex-shrink: 3;
         }
         .skills:hover{
             width: 66%;
@@ -478,6 +479,9 @@ footer .row {
         .education{
             width: 65%;
             height: 75vh;
+        }
+        .education h4, p{
+            flex-shrink: 3;
         }
         .education:hover{
             width: 66%;
@@ -494,6 +498,7 @@ footer .row {
         .contact{
             width: 65%;
             height: 35vh;
+            flex-shrink: 5;
         }
         .contact:hover{
             width: 66%;
