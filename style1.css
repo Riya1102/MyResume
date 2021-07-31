@@ -452,7 +452,7 @@ footer .row {
     @media only screen and (max-width: 762px) {
        .navbar{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
        }
         .row{
@@ -465,6 +465,7 @@ footer .row {
         .about:hover{
             width: 66%;
             height: 71vh;
+            line-height: 1.5rem;
         }
         .skills{
             width: 65%;
@@ -499,6 +500,8 @@ footer .row {
             width: 65%;
             height: 35vh;
             flex-shrink: 5;
+            font-size: x-small;
+            line-height: 2.5rem;
         }
         .contact:hover{
             width: 66%;
