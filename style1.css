@@ -599,7 +599,7 @@ footer .row {
             text-align: center;
         }
         .social a i{
-            text-align: center;
+            justify-items: center;
         }
 
     }
