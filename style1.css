@@ -101,7 +101,7 @@ html,body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .about p{
-    font-family: Apple Chancery, cursive;
+    font-family: Apple Chancery;
 }
 /* .about:hover{
     background-color: rgb(157, 185, 223);
@@ -158,7 +158,7 @@ html,body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .education ul li{
-    font-family: Apple Chancery, cursive;
+    font-family: Apple Chancery;
 }
 
 /* .education:hover{
