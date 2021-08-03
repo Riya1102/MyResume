@@ -65,7 +65,7 @@ html,body{
 }
 
 .responsive {
-    width: 20vh;
+    width: 30vh;
     height: auto;
     border-radius: 50%;
   }
@@ -75,16 +75,16 @@ html,body{
   }
 
 .intro h4{
-    font-family: -webkit-pictograph;
-    font-weight: bold;
+    font-family: Apple Chancery, cursive;
+    /* font-weight: bold; */
 }  
 
-.intro h1:hover{
+/* .intro h1:hover{
     transform: scale(1.1);
 }
 .intro h4:hover{
     transform: scale(1.1);
-}
+} */
 
 .about{
     width: 55%;
@@ -92,24 +92,27 @@ html,body{
     margin: auto auto;
     padding: 5rem;
     min-height: 300px;
-    box-shadow: 1px 4px 2px 2px #f5f6fa, 0 0 10px whitesmoke, 0 0 15px whitesmoke;
+    /* box-shadow: 1px 4px 2px 2px #f5f6fa, 0 0 10px whitesmoke, 0 0 15px whitesmoke; */
     transition-property: background-color;
     transition: all 0.6s linear;
 }
 .about h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.about p{
+    font-family: Apple Chancery, cursive;
+}
 .about:hover{
     background-color: rgb(157, 185, 223);
     width: 56%;
     height: 71vh;
 }
-.about h1:hover{
+/* .about h1:hover{
     transform: scale(1.05);
 }
 .about p:hover{
     transform: scale(1.05);
-}
+} */
 .skills{
     width: 35%;
     margin: auto auto;
@@ -118,7 +121,7 @@ html,body{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    box-shadow: 1px 4px 2px 2px rgb(64, 67, 241), 0 0 10px rgb(46, 228, 228), 0 0 15px rgb(46, 228, 228);
+    /* box-shadow: 1px 4px 2px 2px rgb(64, 67, 241), 0 0 10px rgb(46, 228, 228), 0 0 15px rgb(46, 228, 228); */
     transition-property: background-color;
     transition: all 0.6s linear;
 }
@@ -128,12 +131,12 @@ html,body{
     height: 71vh;
 }
 
-.skills h2:hover{
+/* .skills h2:hover{
     transform: scale(1.05);
 }
 .skills h6:hover{
     transform: scale(1.05);
-}
+} */
 
 .education{
     font-family: -webkit-pictograph;
@@ -144,13 +147,17 @@ html,body{
     margin-right: auto;
     display: flex;
     flex-direction: column;
-    padding: 5rem;
-    box-shadow: 1px 4px 2px 2px rgb(64, 67, 241), 0 0 10px rgb(46, 228, 228), 0 0 15px rgb(46, 228, 228);
+    padding-top: 3rem;
+    padding-left: 5rem;
+    /* box-shadow: 1px 4px 2px 2px rgb(64, 67, 241), 0 0 10px rgb(46, 228, 228), 0 0 15px rgb(46, 228, 228); */
     transition-property: background-color;
     transition: all 0.6s linear;
 }
 .education h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.education ul li{
+    font-family: Apple Chancery, cursive;
 }
 
 .education:hover{
@@ -158,7 +165,7 @@ html,body{
     width: 56%;
     height: 71vh;
 }
-.education h2:hover{
+/* .education h2:hover{
     transform: scale(1.03);
 }
 .education h4:hover{
@@ -166,7 +173,7 @@ html,body{
 }
 .education ul li:hover{
     transform: scale(1.03);
-}
+} */
 
 .languages{
     width: 35%;
@@ -177,7 +184,7 @@ html,body{
     margin-left: auto;
     margin-right: auto;
     padding: 5rem;
-    box-shadow: 1px 4px 2px 2px #f5f6fa, 0 0 10px whitesmoke, 0 0 15px whitesmoke;
+    /* box-shadow: 1px 4px 2px 2px #f5f6fa, 0 0 10px whitesmoke, 0 0 15px whitesmoke; */
     transition-property: background-color;
     transition: all 0.6s linear;
     background: white;
@@ -196,12 +203,12 @@ html,body{
     width: 36%;
     height: 71vh;
 }
-.languages li:hover{
+/* .languages li:hover{
     transform: scale(1.1);
 }
 .languages h2:hover{
     transform: scale(1.1);
-}
+} */
 .contact{
     width: 50%;
     margin-left: 2vw;
@@ -212,7 +219,7 @@ html,body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 1px 4px 2px 2px rgb(64, 67, 241), 0 0 10px rgb(46, 228, 228), 0 0 15px rgb(46, 228, 228);
+    /* box-shadow: 1px 4px 2px 2px rgb(64, 67, 241), 0 0 10px rgb(46, 228, 228), 0 0 15px rgb(46, 228, 228); */
     transition-property: background-color;
     transition: all 0.6s linear;
 }
@@ -225,13 +232,13 @@ html,body{
     width: 51%;
     height: 36vh;
 }
-.contact p:hover{
+/* .contact p:hover{
     transform: scale(1.05);
 }
 
 .contact h2:hover{
     transform: scale(1.05);
-}
+} */
 
 
 header{
@@ -292,7 +299,7 @@ header h2{
 }
 
 .contact{
-    background:rgb(24, 24, 177);
+    background:rgb(94, 139, 206);
 }
 
 .social{
@@ -331,13 +338,13 @@ header h2{
     color: black;
 }
 
-.fa-twitter{
+/* .fa-twitter{
     color: #0097e6;
 }
 
 .fa-instagram{
     color: #e84393;
-}
+} */
 .end {
     display: flex;
     justify-content: center;
@@ -396,6 +403,8 @@ footer .row {
   and (max-device-width: 1600px) {
       .about, .skills{
           height: 70vh;
+          font-size: large;
+          line-height: 3rem;
       }
       .about{
           width: 55%;
@@ -405,6 +414,8 @@ footer .row {
       }
       .education, .languages{
           height: 70vh;
+          font-size: large;
+          line-height: 2rem;
       }
       .education{
           width: 55%;
@@ -415,6 +426,8 @@ footer .row {
       .contact{
           height: 35vh;
           width: 50%;
+          font-size: medium;
+          line-height: 1.5rem;
       }
   }
 
